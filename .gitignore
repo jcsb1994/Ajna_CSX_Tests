@@ -7,10 +7,10 @@ MPCT_v3_Ajna/__Previews/*
 # PSOC Creator ----------------------------------------
 
 # folders generated after build
-Manipura*/Cortex*/*
-Manipura*/codegentemp/*
-Manipura*/Generated_Source/*
-Manipura*/Export/*
+Ajna*/Cortex*/*
+Ajna*/codegentemp/*
+Ajna*/Generated_Source/*
+Ajna*/Export/*
 
 # files generated after build
 *.cycdx
