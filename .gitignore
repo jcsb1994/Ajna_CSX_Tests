@@ -1,52 +1,30 @@
-# Prerequisites
-*.d
+# Altium ----------------------------------------
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+MPCT_v3_Ajna/Project*/*
+MPCT_v3_Ajna/History/*
+MPCT_v3_Ajna/__Previews/*
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# PSOC Creator ----------------------------------------
 
-# Precompiled Headers
-*.gch
-*.pch
+# folders generated after build
+Manipura*/Cortex*/*
+Manipura*/codegentemp/*
+Manipura*/Generated_Source/*
+Manipura*/Export/*
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# files generated after build
+*.cycdx
+*.cyfit
+*.rpt
+*.log
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+# PSoC 6 files
+cy8c6xx7*
+cy_ipc_config*
+system_psoc63*
+Manipura_USB_I2C_Slave_Firmware.cydsn/iar/*
+Manipura_USB_I2C_Slave_Firmware.cydsn/mdk/*
+Manipura_USB_I2C_Slave_Firmware.cydsn/armgcc/*
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# OneDrive
+*cyprj.*
