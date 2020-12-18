@@ -7,10 +7,10 @@ MPCT_v3_Ajna/__Previews/*
 # PSOC Creator ----------------------------------------
 
 # folders generated after build
-Ajna*/Cortex*/*
-Ajna*/codegentemp/*
-Ajna*/Generated_Source/*
-Ajna*/Export/*
+*.cydsn/Cortex*/*
+*.cydsn/codegentemp/*
+*.cydsn/Generated_Source/*
+*.cydsn/Export/*
 
 # files generated after build
 *.cycdx
@@ -22,9 +22,10 @@ Ajna*/Export/*
 cy8c6xx7*
 cy_ipc_config*
 system_psoc63*
-Manipura_USB_I2C_Slave_Firmware.cydsn/iar/*
-Manipura_USB_I2C_Slave_Firmware.cydsn/mdk/*
-Manipura_USB_I2C_Slave_Firmware.cydsn/armgcc/*
+*.cydsn/iar/*
+*.cydsn/mdk/*
+*.cydsn/armgcc/*
 
 # OneDrive
-*cyprj.*
+*.cyprj.*
+*.cywrk.*
